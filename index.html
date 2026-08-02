@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Démonstration fictive d’un site vitrine pour un restaurant bistronomique auvergnat.">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#12392f">
+  <meta name="color-scheme" content="light">
+  <title>Démonstration — L’Atelier des Volcans | Site vitrine fictif</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <!-- Les données structurées seront ajoutées uniquement avec les vraies informations du client. -->
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header" data-header>
+    <div class="site-header__inner container">
+      <a class="brand" href="#top" aria-label="L’Atelier des Volcans, accueil">
+        <span class="brand__main">L’Atelier des Volcans</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation-principale" aria-label="Ouvrir le menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="navigation-principale" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#maison">La maison</a></li>
+          <li><a href="#carte">La carte</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#infos">Infos</a></li>
+        </ul>
+      </nav>
+
+      <button class="button button--primary header-cta" type="button" data-demo-action="La réservation">
+        <span>Réserver une table</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3v3M17 3v3M4 9h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" aria-labelledby="hero-title">
+      <svg class="contour-art contour-art--hero" aria-hidden="true" viewBox="0 0 360 760" preserveAspectRatio="none">
+        <path d="M-40 42c90 5 92 88 181 83 90-6 95-83 203-58"/>
+        <path d="M-56 82c105 7 103 90 200 84 97-5 109-76 226-54"/>
+        <path d="M-70 127c111 4 117 86 217 84 99-3 121-65 231-47"/>
+        <path d="M-68 185c118-2 123 75 222 74 98-1 129-47 225-36"/>
+        <path d="M-76 565c96-28 135 39 231 30 96-8 121-75 225-44"/>
+        <path d="M-61 617c96-30 135 34 222 29 87-6 125-65 214-37"/>
+        <path d="M-43 668c91-25 126 28 210 25 84-4 121-52 202-31"/>
+      </svg>
+
+      <div class="hero__inner container">
+        <div class="hero__copy" data-reveal>
+          <p class="demo-label">Démonstration de site vitrine</p>
+          <h1 id="hero-title">L’Auvergne dans l’assiette, <em>le feu en héritage.</em></h1>
+          <p>Une cuisine bistronomique de saison, façonnée par les producteurs et les paysages d’Auvergne.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#carte">
+              Découvrir la carte
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+            </a>
+            <a class="button button--outline" href="#infos">
+              Nous trouver
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero__media" data-reveal>
+          <img src="images/plat-canard.webp" width="1536" height="1024" alt="Plat bistronomique de canard rôti, légumes racines et champignons" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="story section" id="maison" aria-labelledby="story-title">
+      <div class="story__inner container">
+        <figure class="story__media" data-reveal>
+          <img src="images/facade-restaurant.webp" width="1024" height="1536" alt="Façade fictive en pierre volcanique de L’Atelier des Volcans" loading="lazy" decoding="async">
+        </figure>
+
+        <div class="story__content" data-reveal>
+          <h2 id="story-title">Une maison ancrée dans son terroir</h2>
+          <div class="story__text">
+            <p>Dans un ancien atelier de pierre imaginé au cœur de Clermont-Ferrand, L’Atelier des Volcans fait dialoguer le geste du cuisinier et la générosité du territoire.</p>
+            <p>Notre cuisine suit le rythme des saisons. Elle met à l’honneur les légumes des maraîchers voisins, les fromages de nos montagnes et les viandes choisies auprès d’éleveurs engagés.</p>
+            <p>Ici, l’assiette est précise, l’accueil est simple et la soirée prend le temps de vivre.</p>
+          </div>
+
+          <div class="values" aria-label="Nos engagements">
+            <article>
+              <span aria-hidden="true">01</span>
+              <h3>Au rythme des saisons</h3>
+              <p>Une carte vivante qui évolue au fil de la nature.</p>
+            </article>
+            <article>
+              <span aria-hidden="true">02</span>
+              <h3>En circuit court</h3>
+              <p>Des producteurs locaux choisis avec exigence.</p>
+            </article>
+            <article>
+              <span aria-hidden="true">03</span>
+              <h3>Une hospitalité sincère</h3>
+              <p>Un accueil chaleureux, attentif et sans artifices.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Les plats et tarifs sont fictifs et centralisés ici pour être faciles à modifier. -->
+    <section class="menu-section section" id="carte" aria-labelledby="menu-title">
+      <svg class="contour-art contour-art--menu" aria-hidden="true" viewBox="0 0 420 560">
+        <path d="M-20 70c95-55 145 43 229-4 81-46 133-5 230-49"/>
+        <path d="M-8 111c91-48 142 39 224-4 80-41 132-3 222-42"/>
+        <path d="M9 155c87-43 134 32 212-3 77-35 126-2 208-34"/>
+        <path d="M130 520c35-78 103-84 143-152 39-67 63-64 126-129"/>
+      </svg>
+
+      <div class="menu-section__inner container">
+        <header class="menu-section__heading" data-reveal>
+          <h2 id="menu-title">La carte<br>du moment</h2>
+          <span class="mountain-rule" aria-hidden="true"></span>
+        </header>
+
+        <div class="menu-grid">
+          <section class="menu-column" aria-labelledby="entrees-title" data-reveal>
+            <h3 id="entrees-title">Entrées</h3>
+            <ul>
+              <li><span><strong>Velouté de potimarron</strong><small>Châtaignes torréfiées, huile de noisette</small></span><b>11 €</b></li>
+              <li><span><strong>Truite de pays fumée</strong><small>Crème de raifort, betterave et aneth</small></span><b>14 €</b></li>
+              <li><span><strong>Œuf parfait fermier</strong><small>Champignons des bois, émulsion au Cantal</small></span><b>13 €</b></li>
+            </ul>
+          </section>
+
+          <section class="menu-column" aria-labelledby="plats-title" data-reveal>
+            <h3 id="plats-title">Plats</h3>
+            <ul>
+              <li><span><strong>Truite de rivière</strong><small>Beurre blanc au bleu d’Auvergne, lentilles vertes du Puy</small></span><b>25 €</b></li>
+              <li><span><strong>Canard rôti</strong><small>Légumes racines, champignons et jus au thym</small></span><b>27 €</b></li>
+              <li><span><strong>Petit épeautre crémeux</strong><small>Courge rôtie, tomme fondante et sauge</small></span><b>22 €</b></li>
+            </ul>
+          </section>
+
+          <section class="menu-column" aria-labelledby="desserts-title" data-reveal>
+            <h3 id="desserts-title">Desserts</h3>
+            <ul>
+              <li><span><strong>Pavlova aux myrtilles</strong><small>Crème légère à la verveine</small></span><b>10 €</b></li>
+              <li><span><strong>Moelleux au chocolat noir</strong><small>Praliné noisette, glace au lait fermier</small></span><b>10 €</b></li>
+              <li><span><strong>Poire pochée</strong><small>Caramel au beurre salé, tuile de seigle</small></span><b>9 €</b></li>
+            </ul>
+          </section>
+        </div>
+
+        <p class="menu-note">Notre carte évolue au fil des saisons et des arrivages.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="galerie" aria-labelledby="gallery-title">
+      <svg class="contour-art contour-art--gallery" aria-hidden="true" viewBox="0 0 440 520">
+        <path d="M-18 32c89 6 88 75 181 73 92-2 103-76 225-54"/>
+        <path d="M-22 68c91 4 91 75 184 72 93-3 109-68 235-46"/>
+        <path d="M-20 107c91 1 97 68 188 65 91-4 112-59 231-39"/>
+      </svg>
+
+      <div class="gallery-section__inner container">
+        <header class="gallery-intro" data-reveal>
+          <h2 id="gallery-title">À table,<br>simplement</h2>
+          <span class="mountain-rule" aria-hidden="true"></span>
+          <p>Des assiettes de saison, une salle vivante et le goût du détail.</p>
+        </header>
+
+        <div class="gallery-grid" aria-label="Galerie du restaurant">
+          <figure class="gallery-item gallery-item--a" data-reveal>
+            <img src="images/plat-canard.webp" width="1536" height="1024" alt="Canard rôti accompagné de légumes de saison" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-item--b" data-reveal>
+            <img src="images/salle-restaurant.webp" width="1536" height="1024" alt="Salle fictive chaleureuse en pierre volcanique et bois sombre" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-item--c" data-reveal>
+            <img src="images/truite-betterave.webp" width="1254" height="1254" alt="Entrée de truite fumée, betterave, aneth et fleurs comestibles" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-item--d" data-reveal>
+            <img src="images/fromages-auvergne.webp" width="1536" height="1024" alt="Sélection de fromages d’Auvergne, noix et confiture de fruits" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-item--e" data-reveal>
+            <img src="images/dressage-chef.webp" width="1536" height="1024" alt="Mains d’un chef dressant une assiette avec précision" loading="lazy" decoding="async">
+          </figure>
+          <figure class="gallery-item gallery-item--f" data-reveal>
+            <img src="images/facade-restaurant.webp" width="1024" height="1536" alt="Entrée fictive du restaurant éclairée à la tombée du jour" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Avis entièrement fictifs, fournis uniquement comme exemples de contenu. -->
+    <section class="reviews section" id="avis" aria-labelledby="reviews-title">
+      <div class="reviews__inner container">
+        <header class="reviews__heading" data-reveal>
+          <h2 id="reviews-title">Ils racontent<br>leur soirée</h2>
+          <p>Avis fictifs présentés à titre d’exemple.</p>
+        </header>
+
+        <div class="reviews__list">
+          <figure class="review" data-reveal>
+            <figcaption>Claire D.</figcaption>
+            <blockquote>« Une cuisine sincère et délicate, qui raconte le terroir avec justesse. Chaque assiette réserve une belle surprise. »</blockquote>
+            <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          </figure>
+          <figure class="review" data-reveal>
+            <figcaption>Antoine L.</figcaption>
+            <blockquote>« Une atmosphère chaleureuse, un service attentif et des plats d’une grande finesse. Une soirée mémorable. »</blockquote>
+            <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          </figure>
+          <figure class="review" data-reveal>
+            <figcaption>Sophie M.</figcaption>
+            <blockquote>« Des produits remarquables, des associations surprenantes et un équilibre parfait des saveurs. Nous reviendrons. »</blockquote>
+            <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coordonnées fictives : modifier cette section et le JSON-LD ensemble. -->
+    <section class="practical section" id="infos" aria-labelledby="practical-title">
+      <svg class="contour-art contour-art--practical" aria-hidden="true" viewBox="0 0 430 560">
+        <path d="M-60 68c96-42 151 55 238 3 87-51 144 14 248-36"/>
+        <path d="M-47 111c93-39 145 49 231 1 86-48 139 12 237-31"/>
+        <path d="M-30 155c89-35 139 42 220-1 81-43 132 10 222-26"/>
+      </svg>
+
+      <div class="practical__inner container">
+        <div class="practical__content" data-reveal>
+          <h2 id="practical-title">Prenez place</h2>
+
+          <address class="contact-list">
+            <div class="contact-row">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <p>12 rue des Roches<br>63000 Clermont-Ferrand <small>(adresse fictive)</small></p>
+            </div>
+            <div class="contact-row">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.5 4 5 6.5C5.5 13 11 18.5 17.5 19l2.5-2.5-4-3-2 2c-2.3-.9-4.1-2.7-5-5l2-2-3.5-4.5Z"/></svg>
+              <p><span class="demo-contact">04 73 00 00 00</span> <small>(numéro fictif)</small></p>
+            </div>
+            <div class="contact-row">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5h4"/></svg>
+              <p><strong>Mardi — Samedi</strong><br>12h–14h · 19h–22h<br><strong>Dimanche — Lundi</strong><br>Fermé</p>
+            </div>
+          </address>
+
+          <div class="practical__actions">
+            <button class="button button--copper" type="button" data-demo-action="L’appel">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.5 4 5 6.5C5.5 13 11 18.5 17.5 19l2.5-2.5-4-3-2 2c-2.3-.9-4.1-2.7-5-5l2-2-3.5-4.5Z"/></svg>
+              Appeler
+            </button>
+            <button class="button button--light-outline" type="button" data-demo-action="L’itinéraire">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 3-7.5 18-3-7.5L3 10.5 21 3Z"/></svg>
+              Itinéraire
+            </button>
+          </div>
+
+          <div class="social-links" aria-label="Réseaux sociaux fictifs">
+            <a href="#social-demo" data-demo-social="Instagram">Instagram</a>
+            <span aria-hidden="true"></span>
+            <a href="#social-demo" data-demo-social="Facebook">Facebook</a>
+          </div>
+        </div>
+
+        <figure class="practical__media" data-reveal>
+          <img src="images/salle-restaurant.webp" width="1536" height="1024" alt="Intérieur fictif de L’Atelier des Volcans, prêt pour le service" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner container">
+      <div class="site-footer__brand">
+        <p>L’Atelier<br>des Volcans</p>
+        <svg aria-hidden="true" viewBox="0 0 180 42"><path d="M2 36h42l22-21 13 12 13-10 28 19h58M48 35l18-20 10 9 8-7 20 18"/></svg>
+      </div>
+
+      <address class="site-footer__contact">
+        <p>12 rue des Roches<br>63000 Clermont-Ferrand</p>
+        <span class="demo-contact">04 73 00 00 00</span>
+        <p>Mardi — Samedi<br>12h–14h · 19h–22h</p>
+      </address>
+
+      <nav class="site-footer__links" aria-label="Informations légales">
+        <a href="#mentions-legales" data-dialog-open="mentions-dialog">Mentions légales <span aria-hidden="true">→</span></a>
+        <a href="#politique-confidentialite" data-dialog-open="privacy-dialog">Politique de confidentialité <span aria-hidden="true">→</span></a>
+      </nav>
+    </div>
+
+    <div class="site-footer__bottom container">
+      <p>© <span data-current-year>2026</span> L’Atelier des Volcans</p>
+      <p class="demo-disclaimer">Site de démonstration — établissement fictif<br><small>Visuels créés pour cette démonstration ; aucun établissement réel n’est représenté.</small></p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Retour en haut de la page" data-back-to-top>
+    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></svg>
+  </button>
+
+  <dialog class="legal-dialog" id="mentions-dialog" aria-labelledby="mentions-title">
+    <div class="legal-dialog__inner">
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Fermer les mentions légales">×</button>
+      <h2 id="mentions-title">Mentions légales</h2>
+      <p><strong>Site de démonstration — établissement fictif.</strong></p>
+      <p>L’Atelier des Volcans, 12 rue des Roches, 63000 Clermont-Ferrand. Toutes les coordonnées, personnes, prestations et informations présentées sur ce site sont fictives.</p>
+      <p>Ce site statique a été conçu à des fins de démonstration commerciale. Les visuels ont été créés pour cette maquette et ne représentent aucun établissement réel. Le site n’exploite aucun service de suivi et ne dépose aucun cookie publicitaire.</p>
+    </div>
+  </dialog>
+
+  <dialog class="legal-dialog" id="privacy-dialog" aria-labelledby="privacy-title">
+    <div class="legal-dialog__inner">
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Fermer la politique de confidentialité">×</button>
+      <h2 id="privacy-title">Politique de confidentialité</h2>
+      <p>Ce site de démonstration ne contient aucun formulaire, ne collecte aucune donnée personnelle et n’intègre aucun outil publicitaire ou analytique.</p>
+      <p>Les boutons d’appel, de réservation et d’itinéraire sont volontairement simulés. Les coordonnées affichées sont fictives.</p>
+    </div>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true" data-toast></div>
+</body>
+</html>
